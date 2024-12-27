@@ -1,3 +1,8 @@
+# ISOBOT: MODULAR ROBOTIC LEARNING PLATFORM
+
+![alt text](https://github.com/shukri-ahmad/ISOBOT/blob/master/ISOBOT%20PIC.png?raw=true)
+
+
 
 > Open this page at [https://shukri-ahmad.github.io/isobot/](https://shukri-ahmad.github.io/isobot/)
 
