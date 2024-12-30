@@ -90,16 +90,16 @@ namespace ISOBOT {
     //% blockGap=10
     //% block="Forward turn -> speed right $valueR| speed left $valueL"
     export function forwardturn(valueR: number, valueL: number): void {
-        motionbit.runMotor(MotionBitMotorChannel.M1, MotionBitMotorDirection.Forward, valueR)
-        motionbit.runMotor(MotionBitMotorChannel.M3, MotionBitMotorDirection.Forward, valueL)
+        motionbit.runMotor(MotionBitMotorChannel.M1, MotionBitMotorDirection.Forward, valueL)
+        motionbit.runMotor(MotionBitMotorChannel.M3, MotionBitMotorDirection.Forward, valueR)
     }
 
     //% subcategory=Movement
     //% blockGap=10
     //% block="Reverse turn -> speed right $valueR| speed left $valueL"
     export function reverseturn(valueR: number, valueL: number): void {
-        motionbit.runMotor(MotionBitMotorChannel.M1, MotionBitMotorDirection.Backward, valueR)
-        motionbit.runMotor(MotionBitMotorChannel.M3, MotionBitMotorDirection.Backward, valueL)
+        motionbit.runMotor(MotionBitMotorChannel.M1, MotionBitMotorDirection.Backward, valueL)
+        motionbit.runMotor(MotionBitMotorChannel.M3, MotionBitMotorDirection.Backward, valueR)
     }
 
 }
